@@ -1,0 +1,152 @@
+body {
+    background: #05001F;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+nav {
+    margin-right: 10%;
+}
+
+#logo {
+    width: 120px;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Days One", sans-serif;
+}
+
+nav a:hover {
+    color: #05001F;
+    background-color: white;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.headerRight a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Days One", sans-serif;
+    background-color: #078D2D;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 21px;
+}
+
+.contentEslogan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contentEslogan h1 {
+    font-size: 60px;
+    margin: 0;
+    margin: 45px;
+    color: #05001F;
+}
+
+.contentEslogan img {
+    width: 758px;
+    height: 410px;
+    padding-right: 30px;
+}
+
+.otherColor {
+    color: #078D2D;
+}
+
+.contentDrop {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 80px;
+    box-sizing: border-box;
+}
+
+.dropdownSelect {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#borderMarca {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; /* Bordes redondeados abajo a la izquierda */
+}
+
+#borderRuedas {
+    border-top-right-radius: 20px; /* Bordes redondeados arriba a la derecha */
+    border-bottom-right-radius: 20px; /* Bordes redondeados abajo a la derecha */
+}
+.dropdownSelect label {
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-family: "Days One", sans-serif;
+}
+
+.dropdownSelect select {
+    width: 150px;
+    border: none;
+    font-size: 25px;
+    font-family: "Days One", sans-serif;
+}
+.contentDrop a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #317AE7;
+    font-size: 25px;
+    font-family: "Days One", sans-serif;
+    border-radius: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 80px;
+}
